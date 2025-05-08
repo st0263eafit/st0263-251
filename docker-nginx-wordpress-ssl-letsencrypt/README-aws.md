@@ -65,9 +65,9 @@ Este comando queda pausado indicando que debe crear un registro TXT en su domini
 
 despues de clonar este repositorio en el destino:
 
-    git clone https://github.com/st0263eafit/st0263-242.git
+    git clone https://github.com/st0263eafit/st0263-251.git
 
-    cd st0263-242/docker-nginx-wordpress-ssl-letsencrypt
+    cd st0263-251/docker-nginx-wordpress-ssl-letsencrypt
     sudo cp docker-compose.yml /home/ec2-user/wordpress
     sudo cp nginx.conf /home/ec2-user/wordpress
     sudo cp ssl.conf /home/ec2-user/wordpress

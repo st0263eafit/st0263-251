@@ -226,7 +226,7 @@ $ sudo python3 -m pip install grpcio-tools
 Ahora, se clona el repositorio donde está el código:
 
 ```sh
-$ sudo git clone https://github.com/st0263eafit/st0263-242.git 
+$ sudo git clone https://github.com/st0263eafit/st0263-251.git 
 ```
 
 Particularmente, para el caso de python, se hace necesario generar las interfaces a partir de la deinifición del archivo "Service.proto" y a diferencia de node.js, esto no se hace en tiempo de ejecución. Para esto, se hace necesario estar en el directorio "src" de la carpeta "PaymentService" y ejecutar el siguiente comando:
@@ -258,7 +258,7 @@ $ sudo curl -fsSL https://deb.nodesource.com/setup_19.x | sudo -E bash - && sudo
 Ahora, se clona el repositorio donde está el código:
 
 ```sh
-$ sudo git clone https://github.com/st0263eafit/st0263-242.git 
+$ sudo git clone https://github.com/st0263eafit/st0263-251.git 
 ```
 Localizados en el directorio "src" de la carpeta "OnlineService", modifique el archvo ".env de la siguiente forma:
 
