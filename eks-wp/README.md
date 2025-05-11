@@ -10,11 +10,11 @@
     kubectl get nodes
 
 ejemplo de salida:
-~ $ kubectl get nodes
-NAME                            STATUS   ROLES    AGE   VERSION
-ip-172-31-32-239.ec2.internal   Ready    <none>   24m   v1.32.3-eks-473151a
-ip-172-31-81-246.ec2.internal   Ready    <none>   24m   v1.32.3-eks-473151a
-~ $
+    $ kubectl get nodes
+    NAME                            STATUS   ROLES    AGE   VERSION
+    ip-172-31-32-239.ec2.internal   Ready    <none>   24m   v1.32.3-eks-473151a
+    ip-172-31-81-246.ec2.internal   Ready    <none>   24m   v1.32.3-eks-473151a
+    $
 
 ## 3. crear un servicios AWS EFS y obtener el id, ejemplo: fs-0d2b5ff834bfe5f61
 ### este id debe ser actualizado en el archivo: 02wordpress-deployment.yaml
