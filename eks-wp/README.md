@@ -10,6 +10,7 @@
     kubectl get nodes
 
 ejemplo de salida:
+
     $ kubectl get nodes
     NAME                            STATUS   ROLES    AGE   VERSION
     ip-172-31-32-239.ec2.internal   Ready    <none>   24m   v1.32.3-eks-473151a
